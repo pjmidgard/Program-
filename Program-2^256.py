@@ -306,7 +306,7 @@ class compression:
                                             long_T=len(Times_9)
                                             long_T=(long_T//256)+1
                                             Combinate=""
-                                            Combinate="0"+str(long_T*256)+"b"
+                                            Combinate="0"+str(256)+"b"
                                             
  
                                             
