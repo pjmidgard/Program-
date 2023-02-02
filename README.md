@@ -1,7 +1,5 @@
 # Program-
-Program-2^256b
-University-2^256b
-Sha-2048b
+Program-2^256b University-2^256b Jurijus Pacalovas Sha-2048b Space
 
 Algorithm Spring-156: Repeat many 1 or many times Number_of_the_file=((((Number_of_the_file*add_ones_together)+Add)//3)*T_Real)//Divided_corrdiates and Times Reality. Also, Second Times=T14
 
