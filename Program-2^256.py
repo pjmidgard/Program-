@@ -211,18 +211,17 @@ class compression:
                                     from qiskit.circuit import QuantumCircuit
                                     k1=-2
                                     k2=-1
-                                    k3=0
-                                    k6=0     
-                                    k7=0
+                                   
                                     
                                    
-                                    circuit = QuantumCircuit((2**256)+2) 
+                                    circuit = QuantumCircuit((2**2048)+2) 
                                     
                                     Extract1=0
                                     Times_10=1
                                     Times_7=0
                                     Times_11=-1
                                     Times_12=1
+                                    University=-1
                                     Divided_corrdiates=1  
                                     
                                     N_5=-1
@@ -237,62 +236,46 @@ class compression:
                                             
                                             k1+=1
                                             k2+=1
-                                            k3+=1
-                                            k6+=1
-                                            k7+=1
-                                            if k1==2**256:
+                                            
+                                           
+                                        
+                                            if k1==2**2048:
                                                 k1=-1
                                                 k2=0
-                                                k3=1
-                                                k6=1
-                                                k7=1
+                                              
+                                           
+                                           
                                             
                                             
                                             #N_5+=1
                                             #Times_11+=1
                                     
-                                            circuit.cp(N_5, k1, k2)
+                                            circuit.cp(University, k1, k2)
                                             
-                                            N_5=int(k2)
+                                            University=int(k2)
                                             
-                                            circuit.cp(Times_11,k1,k2)
+                                            University_file=format(University,'02048b')
                                             
-                                            Times_11=int(k2)
+                                            if University>(2**2048)-1:
+                                            	University=0
+                                            
+                                            N_5=University_file[0:256]
+                                            Times_11=University_file[256:512]
+                                            Times_10=University_file[512:768]
+                                            Times_12=University_file[768:1024]
+                                            Divided_corrdiates=University_file[1024:1280]
+                                            Times_7=University_file[1280:1536]
+                                            Equal_info_between_of_the_cirlce_of_the_file2=  University_file[1536:1792]
+                                            Info=University_file[1792:2048]
+                                             
+
+                                            
+                                            if Divided_corrdiates==0:
+                                            	Divided_corrdiates=1
                                             
                                             
-                                                                              
-                                           
-                                            if N_5>=(2**256)-1:
                                             
-                                                
-                                                
-                                                circuit.cp(Times_10,k1,k7)
-                                                Times_10=int(k7)
-                                                #Times_10+=1
-                                                
-                                         
-                                                N_5=0
-                                            if Times_10>=(2**256)-1:
-                                                    
-                                                circuit.cp(Times_12,k1,k3)
-                                                Times_12=int(k3) 
-                                                #Times_12=+1
-                                                Times_10=1
-                                            if Times_12>=(2**256)-1:
-                                                
-                                                circuit.cp(Divided_corrdiates,k1,k6)
-                                                Divided_corrdiates=int(k6)
-                                                #Divided_corrdiates+=1
-                                                
-                                                
-                                            if Divided_corrdiates>=(2**256)-1:
-                                                Divided_corrdiates=1 
-                                            if Times_11==(2**256)-1:
-                                                
-                                                
-                                                Times_7+=1
-                                               
-                                                Times_11=0
+        
                                              
                                             
                                              
