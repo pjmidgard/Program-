@@ -531,7 +531,7 @@ class compression:
                                                        T2=(T1//256)+1
                                                        T2=T2*256
 
-                                                       C="0"+str(T2)+"b"
+                                                       C="0"+str(256)+"b"
                                                        Time_Real3=format(lenf2,C)
                                                        T1=len(Time_Real3)
                                                        Time_Real1=format(T1,'0256b')
@@ -545,7 +545,7 @@ class compression:
                                                        T2=(T1//256)+1
                                                        T2=T2*256
 
-                                                       C="0"+str(T2)+"b"
+                                                       C="0"+str(256)+"b"
                                                        Time_Real3=format(Times_11,C)
                                                        T1=len(Time_Real3)
                                                        Time_Real1=format(T1,'0256b')
@@ -560,7 +560,7 @@ class compression:
                                                        T2=(T1//256)+1
                                                        T2=T2*256
 
-                                                       C="0"+str(T2)+"b"
+                                                       C="0"+str(256)+"b"
                                                        Time_Real3=format(Times_12,C)
                                                        T1=len(Time_Real3)
                                                        Time_Real1=format(T1,'0256b')
@@ -577,7 +577,7 @@ class compression:
                                                        T2=(T1//256)+1
                                                        T2=T2*256
 
-                                                       C="0"+str(T2)+"b"
+                                                       C="0"+str(256)+"b"
                                                        Time_Real3=format(N_5,C)
                                                        T1=len(Time_Real3)
                                                        Time_Real1=format(T1,'0256b')
@@ -593,7 +593,7 @@ class compression:
                                                        T2=(T1//256)+1
                                                        T2=T2*256
 
-                                                       C="0"+str(T2)+"b"
+                                                       C="0"+str(256)+"b"
                                                        Time_Real3=format(Times_10,C)
                                                        T1=len(Time_Real3)
                                                        Time_Real1=format(T1,'0256b')
@@ -608,7 +608,7 @@ class compression:
                                                        T2=(T1//256)+1
                                                        T2=T2*256
 
-                                                       C="0"+str(T2)+"b"
+                                                       C="0"+str(256)+"b"
                                                        Time_Real3=format(Times_half_Real,C)
                                                        T1=len(Time_Real3)
                                                        Time_Real1=format(T1,'0256b')
@@ -628,7 +628,7 @@ class compression:
 
                                                        Divided_corrdiates1=""
 
-                                                       C="0"+str(T2)+"b"
+                                                       C="0"+str(256)+"b"
                                                        Time_Real3=format(Divided_corrdiates,C)
                                                        T1=len(Time_Real3)
                                                        Time_Real1=format(T1,'0256b')
