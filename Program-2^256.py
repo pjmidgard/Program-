@@ -259,11 +259,11 @@ class compression:
                                             if University>(2**1280)-1:
                                             	University=0
                                             
-                                            N_5=University_file[0:256]
-                                            Times_11=University_file[256:512]
-                                            Times_10=University_file[512:768]
-                                            Times_12=University_file[768:1024]
-                                            Divided_corrdiates=University_file[1024:1280]
+                                            N_5=int(University_file[0:256],2)
+                                            Times_11=int(University_file[256:512],2)
+                                            Times_10=int(University_file[512:768],2)
+                                            Times_12=int(University_file[768:1024],2)
+                                            Divided_corrdiates=(University_file[1024:1280],2)
                                             
                                             
                                             
