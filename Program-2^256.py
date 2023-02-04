@@ -627,7 +627,7 @@ class compression:
                                                        if Extact==Equal_info_between_of_the_cirlce_of_the_file_17 and Times_10!=0:
 
 
-                                                               Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+Add_N+long3+Time_Real2+Reality+Divided_corrdiates1+Info
+                                                               Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+Add_N+long3+Time_Real2+Reality+Divided_corrdiates1
                                                                Extract1=1
                                                       
                                                        if Extact==Equal_info_between_of_the_cirlce_of_the_file_17 and Times_10==0:
