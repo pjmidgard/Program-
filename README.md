@@ -1,5 +1,5 @@
 # Program-
-Compression Program-2^256b_2^256b University Jurijus Pacalovas Sha-2048b Space
+Compression Program-2^256b_2^256b University Jurijus Pacalovas Sha-1792b Space
 
 Algorithm Spring-156: Repeat many 1 or many times Number_of_the_file=((((Number_of_the_file*add_ones_together)+Add)//3)*T_Real)//Divided_corrdiates and Times Reality. Also, Second Times=T14
 
