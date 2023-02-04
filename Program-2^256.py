@@ -256,7 +256,7 @@ class compression:
                                             
                                             University_file=format(University,'01280b')
                                             
-                                            if University>(2*1280)-1:
+                                            if University>(2**1280)-1:
                                             	University=0
                                             
                                             N_5=University_file[0:256]
