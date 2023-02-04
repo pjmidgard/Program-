@@ -263,7 +263,7 @@ class compression:
                                             Times_11=int(University_file[256:512],2)
                                             Times_10=int(University_file[512:768],2)
                                             Times_12=int(University_file[768:1024],2)
-                                            Divided_corrdiates=(University_file[1024:1280],2)
+                                            Divided_corrdiates=int(University_file[1024:1280],2)
                                             
                                             
                                             
