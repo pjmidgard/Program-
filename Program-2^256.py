@@ -214,7 +214,7 @@ class compression:
                                    
                                     
                                    
-                                    circuit = QuantumCircuit((2**1792)+2) 
+                                    circuit = QuantumCircuit((2**1536)+2) 
                                     
                                     Extract1=0
                                     Times_10=1
@@ -239,7 +239,7 @@ class compression:
                                             
                                            
                                         
-                                            if k1==2**1792:
+                                            if k1==2**1536:
                                                 k1=-1
                                                 k2=0
                                               
@@ -254,9 +254,9 @@ class compression:
                                             
                                             University=int(k2)
                                             
-                                            University_file=format(University,'02048b')
+                                            University_file=format(University,'01536b')
                                             
-                                            if University>(2*1792)-1:
+                                            if University>(2*1536)-1:
                                             	University=0
                                             
                                             N_5=University_file[0:256]
@@ -265,7 +265,7 @@ class compression:
                                             Times_12=University_file[768:1024]
                                             Divided_corrdiates=University_file[1024:1280]
                                             Times_7=University_file[1280:1536]
-                                            lenf2=University_file[1536:1792]
+                                            
                                             
                                              
 
