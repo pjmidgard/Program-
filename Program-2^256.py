@@ -46,7 +46,7 @@ class compression:
                     x=0
                     x1=0
                     x2=0
-                    x3=0
+                    
                     n=0
                     x = time()
                    
